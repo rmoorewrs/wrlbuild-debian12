@@ -22,10 +22,23 @@ RUN \
     g++ \
     git-core \
     bash cpio \
-    python3 python3-pip python3-pexpect debianutils iputils-ping locales \
-    diffutils xz-utils make file screen sudo wget time patch openssh-client \
+    python3 python3-pip python3-pexpect \
+    debianutils \
+    iputils-ping \
+    locales \
+    diffutils \
+    xz-utils \
+    make \
+    file \
+    screen \
+    sudo \
+    wget \
+    time \
+    patch \
+    openssh-client \
     curl \
     vim-tiny \
+    nano \
     less \
     iproute2 \
     iputils-ping \
