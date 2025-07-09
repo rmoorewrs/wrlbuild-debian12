@@ -45,7 +45,7 @@ alias lts24shell='export WRL_MIRROR=/path/to/LTS24_mirror; docker run --rm -it -
 ```
 $ mkdir myproj && cd myproj
 $ lts24shell
-wrlbuild@eee4d9ac3be1:/home/rmoore/myproj$ git clone --branch WRLINUX_10_24_LTS $WRL_MIRROR
+wrlbuild@eee4d9ac3be1:/home/rmoore/myproj$ git clone --branch WRLINUX_10_24_LTS $WRL_MIRROR/wrlinux-x
 wrlbuild@eee4d9ac3be1:/home/rmoore/myproj$ ./wrlinux-x/setup.sh --machines=qemux86-64 --distros=wrlinux --accept-eula=yes
 ```
 - exit the shell when you're done
