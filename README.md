@@ -27,7 +27,7 @@ docker build --build-arg UID=$(id -u) --build-arg GID=$(id -g) \
 
 ### Next, Create an alias in `~/.bash_aliases`
 
-This assumes you have a local mirror of the Wind River Linux repo, so replace the `/path/to/LTS24_MIRROR` with your local mirror path (do point WRL_MIRROR directly at the wrlinux-x directory, point at one level above wrlinux-x)
+This assumes you have a local mirror of the Wind River Linux repo, so replace the `/path/to/LTS24_MIRROR` with your local mirror path (do NOT point WRL_MIRROR directly at the wrlinux-x directory, point at one level above wrlinux-x)
 
 If you clone directly from the Wind River git repo, then ignore the WRL_MIRROR or point WRL_MIRROR at the network git repo URL.
 
